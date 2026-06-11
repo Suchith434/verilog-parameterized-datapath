@@ -13,7 +13,7 @@ A structural, parameterized CPU datapath designed in Verilog. This project demon
 ## Simulation Waveform
 *(The instantaneous combinational ALU read/compute followed by the clock-synchronous memory latching)*
 
-![GTKWave Simulation](waveform.png) 
+![GTKWave Simulation](image.png) 
 
 ## File Structure
 * `datapath.v` - The top-level structural wrapper utilizing explicit named port connections.
