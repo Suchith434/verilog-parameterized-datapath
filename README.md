@@ -36,13 +36,18 @@ Because the ALU's Zero Flag was tied directly to the combinational output, the m
 
 ### Verification Waveforms
 
-`console.png`
-`console_BITWISE_AND.png`
-`console_jump_non_zero_png`
-`waveform(1).png`
-`waveform.png`
-`waveform_BITWISE_AND.png`
-`waveform_Jump_non_zero.png`
+**Standard Execution & Status Register Fix**
+![Console Output](sim/console.png)
+![Waveform Trace](sim/waveform.png)
+![Secondary Waveform](sim/waveform(1).png)
+
+**Bitwise AND Verification**
+![Console Bitwise AND](sim/console_BITWISE_AND.png)
+![Waveform Bitwise AND](sim/waveform_BITWISE_AND.png)
+
+**Jump-if-Zero (JMP_Z) Hazard Mitigation**
+![Console Jump Non-Zero](sim/console_jump_non_zero_png)
+![Waveform Jump Non-Zero](sim/waveform_Jump_non_zero.png)
 
 ## File Structure
 
